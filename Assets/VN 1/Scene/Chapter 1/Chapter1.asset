@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38b9ceca75ea97d458c11e0633bbd393, type: 3}
+  m_Name: Chapter1
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: ' '
+    speaker: {fileID: 11400000, guid: cb95e0dfcf6ebbb44b50cee3e89d00cc, type: 2}
+  - text: ' Halo! Aku Neutrofil!'
+    speaker: {fileID: 11400000, guid: cb95e0dfcf6ebbb44b50cee3e89d00cc, type: 2}
+  - text: Aku adalah sel pertama dari sistem kekebalan tubuh yang bisa melawan dan
+      menyerang bakteri/virus di dalam tubuh.
+    speaker: {fileID: 11400000, guid: cb95e0dfcf6ebbb44b50cee3e89d00cc, type: 2}
+  background: {fileID: 21300000, guid: 5708180be73cf2449902bcd5badd9a45, type: 3}
+  nextScene: {fileID: 11400000, guid: a96f9419c0fa1cb47a3a8eb11ff2a821, type: 2}
