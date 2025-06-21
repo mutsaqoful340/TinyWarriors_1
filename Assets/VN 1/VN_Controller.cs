@@ -25,33 +25,33 @@ public class VN_Controller : MonoBehaviour
         }
     }
 
-    void Update()
+
+    public void OnNextButtonPressed()
     {
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+        if (state == State.IDLE && bottomBar.IsCompleted())
         {
-            if (state == State.IDLE && bottomBar.IsCompleted())
+            if (bottomBar.IsLastSentence())
             {
-                if (bottomBar.IsLastSentence())
+                var next = (currentScene as VN_StoryScene).nextScene;
+                if (next == null)
                 {
-                    var next = (currentScene as VN_StoryScene).nextScene;
-                    if (next == null)
-                    {
-                        Debug.Log("Reached the end of story. Activating end panel.");
-                        if (sceneEndPanel != null)
-                            sceneEndPanel.SetActive(true);
-                    }
-                    else
-                    {
-                        PlayScene(next);
-                    }
+                    Debug.Log("Reached the end of story. Activating end panel.");
+                    if (sceneEndPanel != null)
+                        sceneEndPanel.SetActive(true);
                 }
                 else
                 {
-                    bottomBar.PlayNextSentence();
+                    PlayScene(next);
                 }
+            }
+            else
+            {
+                bottomBar.PlayNextSentence();
             }
         }
     }
+
+
 
     public void PlayScene(GameScene scene)
     {
