@@ -33,7 +33,8 @@ public class MemoryGameManager : MonoBehaviour
             GameObject obj = Instantiate(cardPrefab, cardParent);
             MemoryGame_Card card = obj.GetComponent<MemoryGame_Card>();
             card.Setup(images[ids[i]], ids[i], this);
-            card.FlipFront(); // show all at start
+            card.StartCoroutine(card.FlipToFront());
+            // show all at start
         }
     }
 
