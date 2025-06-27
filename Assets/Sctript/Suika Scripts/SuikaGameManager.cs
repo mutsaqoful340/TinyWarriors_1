@@ -1,8 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class SuikaGameManager : MonoBehaviour
@@ -12,19 +9,18 @@ public class SuikaGameManager : MonoBehaviour
     public int CurrentScore { get; set; }
 
     [SerializeField] private TextMeshProUGUI _scoreText;
-    [SerializeField] private Image _gameOverPanel;
-    [SerializeField] private float _fadeTime = 2f;
+    [SerializeField] private GameObject _gameOverPanel;
 
     public float TimeTillGameOver = 1.5f;
 
     private void OnEnable()
     {
-        SceneManager.sceneLoaded += FadeGame;
+        SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
     private void OnDisable()
     {
-        SceneManager.sceneLoaded -= FadeGame;
+        SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
     private void Awake()
@@ -45,56 +41,17 @@ public class SuikaGameManager : MonoBehaviour
 
     public void GameOver()
     {
-        StartCoroutine(ResetGame());
+        _gameOverPanel.SetActive(true);
+        //Invoke(nameof(ReloadScene), TimeTillGameOver);
     }
 
-    private IEnumerator ResetGame()
+    //private void ReloadScene()
+    //{
+    //    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    //}
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        _gameOverPanel.gameObject.SetActive(true);
-
-        Color startColor = _gameOverPanel.color;
-        startColor.a = 0f;
-        _gameOverPanel.color = startColor;
-
-        float elapsedTime = 0f;
-        while(elapsedTime < _fadeTime)
-        {
-            elapsedTime += Time.deltaTime;
-
-            float newAlpha = Mathf.Lerp(0f, 1f, (elapsedTime / _fadeTime));
-            startColor.a = newAlpha;
-            _gameOverPanel.color = startColor;
-
-            yield return null;
-        }
-
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-    }
-
-    private void FadeGame(Scene scene, LoadSceneMode mode)
-    {
-        StartCoroutine(FadeGameIn());
-    }
-
-    private IEnumerator FadeGameIn()
-    {
-        _gameOverPanel.gameObject.SetActive(true);
-        Color startColor = _gameOverPanel.color;
-        startColor.a = 1f;
-        _gameOverPanel.color = startColor;
-
-        float elapsedTime = 0f;
-        while(elapsedTime < _fadeTime)
-        {
-            elapsedTime += Time.deltaTime;
-
-            float newAlpha = Mathf.Lerp(1f, 0f, (elapsedTime / _fadeTime));
-            startColor.a = newAlpha;
-            _gameOverPanel.color = startColor;
-
-            yield return null;
-        }
-
-        _gameOverPanel.gameObject.SetActive(false);
+        _gameOverPanel.SetActive(false);
     }
 }

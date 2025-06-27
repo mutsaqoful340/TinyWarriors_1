@@ -83,4 +83,10 @@ public class MemoryGame_Card : MonoBehaviour, IPointerClickHandler
 
         transform.localRotation = Quaternion.Euler(0f, to, 0f);
     }
+
+    public void MarkAsMatched()
+    {
+        isMatched = true;
+    }
+
 }

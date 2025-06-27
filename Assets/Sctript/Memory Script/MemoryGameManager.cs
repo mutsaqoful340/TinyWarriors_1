@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,8 +8,14 @@ public class MemoryGameManager : MonoBehaviour
     public Transform cardParent;
     public Sprite[] images;
 
+    [SerializeField] private GameObject gameCompletePanel; // 👈 Assign in inspector
+
     private MemoryGame_Card firstCard, secondCard;
     private List<int> cardIds = new List<int>();
+
+    private int matchCount = 0;
+
+
 
     void Start()
     {
@@ -34,11 +40,10 @@ public class MemoryGameManager : MonoBehaviour
             MemoryGame_Card card = obj.GetComponent<MemoryGame_Card>();
             card.Setup(images[ids[i]], ids[i], this);
             card.StartCoroutine(card.FlipToFront());
-            // show all at start
         }
     }
 
-    IEnumerator InitialPreview()
+    private IEnumerator InitialPreview()
     {
         yield return new WaitForSeconds(2.5f);
 
@@ -48,6 +53,7 @@ public class MemoryGameManager : MonoBehaviour
             card.FlipBack();
         }
     }
+
 
     void Shuffle(List<int> list)
     {
@@ -73,13 +79,31 @@ public class MemoryGameManager : MonoBehaviour
         }
     }
 
-    IEnumerator CheckMatch()
+    private IEnumerator CheckMatch()
     {
         yield return new WaitForSeconds(1f);
 
         if (firstCard.cardId == secondCard.cardId)
         {
-            // Matched - you can add effects here
+            matchCount++;
+            Debug.Log("Pairs matched: " + matchCount + " / " + images.Length);
+
+            firstCard.MarkAsMatched();
+            secondCard.MarkAsMatched();
+
+            if (matchCount >= images.Length)
+            {
+                if (gameCompletePanel != null)
+                {
+                    gameCompletePanel.SetActive(true);
+                }
+                else
+                {
+                    Debug.LogError("❌ gameCompletePanel is NOT assigned!");
+                }
+
+                Debug.Log("All pairs matched! Attempting to activate win panel.");
+            }
         }
         else
         {
@@ -90,4 +114,6 @@ public class MemoryGameManager : MonoBehaviour
         firstCard = null;
         secondCard = null;
     }
+
+
 }
