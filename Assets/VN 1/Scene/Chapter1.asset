@@ -23,9 +23,7 @@ MonoBehaviour:
   - text: Selain menyerang bakteri/virus,
     speaker: {fileID: 11400000, guid: cb95e0dfcf6ebbb44b50cee3e89d00cc, type: 2}
   - text: Aku juga memberi sinyal kepada semua teman teman kekebalan tubuh yang lain
-      untuk memberitahukan
-    speaker: {fileID: 11400000, guid: cb95e0dfcf6ebbb44b50cee3e89d00cc, type: 2}
-  - text: Bahwa ada bakteri/virus yang menyerang tubuh.
+      untuk memberitahukan bahwa ada bakteri/virus yang menyerang tubuh.
     speaker: {fileID: 11400000, guid: cb95e0dfcf6ebbb44b50cee3e89d00cc, type: 2}
   - text: 'Jadi semua teman teman ku tau kalau ada bakteri/virus yang menyerang tubuh. '
     speaker: {fileID: 11400000, guid: cb95e0dfcf6ebbb44b50cee3e89d00cc, type: 2}
