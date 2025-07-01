@@ -10,34 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 38b9ceca75ea97d458c11e0633bbd393, type: 3}
-  m_Name: Chapter4
+  m_Name: Chapter4_4
   m_EditorClassIdentifier: 
   sentences:
   - text: 
     speaker: {fileID: 11400000, guid: 85e7f18f498b2444984fa429fff82af5, type: 2}
-  - text: Halooo, kenalinn kita adalah Limfosit.
-    speaker: {fileID: 11400000, guid: 85e7f18f498b2444984fa429fff82af5, type: 2}
-  - text: Aku Limfosit B, dan kami Limfosit T. Kok limfosit ada banyak?
-    speaker: {fileID: 11400000, guid: 85e7f18f498b2444984fa429fff82af5, type: 2}
-  - text: Iyahh, kita Limfosit dibagi menjadi beberapa jenis, eitsss tapi sebelum
-      kenalan sama jenis lain kita ketahui dulu apa itu Limfosit.
-    speaker: {fileID: 11400000, guid: 85e7f18f498b2444984fa429fff82af5, type: 2}
-  - text: Okeyy, kita Limfosit adalah leukosit yang bertugas untuk menjaga system
-      kekebalan tubuh.
-    speaker: {fileID: 11400000, guid: 85e7f18f498b2444984fa429fff82af5, type: 2}
-  - text: Nahh, ada dua jenis Limfosit,
-    speaker: {fileID: 11400000, guid: 85e7f18f498b2444984fa429fff82af5, type: 2}
-  - text: Yaitu Limfosit B yang betugas membuat tameng/antibody untuk melawan para
-      bakteri, virus dan racun yang menyerang tubuh.
-    speaker: {fileID: 11400000, guid: 85e7f18f498b2444984fa429fff82af5, type: 2}
-  - text: Kalau Limfosit T bertugas bertanggung jawab untuk menghancurkan teman sel
-      tubuh yang terinfeksi virus atau menjadi kanker.
-    speaker: {fileID: 11400000, guid: 634107c3d92f4484dba75a26aeb63781, type: 2}
-  - text: Selanjutnyaa kami Limfosit T memiliki tugas lain,
-    speaker: {fileID: 11400000, guid: 634107c3d92f4484dba75a26aeb63781, type: 2}
-  - text: 'Yaitu memproduksi sitokin yang merupakan zat biologis untuk membantu teman
-      teman mengaktiflan bagian lain di sistem kekebalan tubuh.  '
-    speaker: {fileID: 11400000, guid: 634107c3d92f4484dba75a26aeb63781, type: 2}
   - text: 'Kita terbagi menjadi beberapa jenis, yaitu '
     speaker: {fileID: 11400000, guid: 634107c3d92f4484dba75a26aeb63781, type: 2}
   - text: Aku Sel T Helper bertugas untuk melepaskan protein sitokin

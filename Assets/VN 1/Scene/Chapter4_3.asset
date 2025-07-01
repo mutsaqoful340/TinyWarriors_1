@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38b9ceca75ea97d458c11e0633bbd393, type: 3}
+  m_Name: Chapter4_3
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: 
+    speaker: {fileID: 11400000, guid: 85e7f18f498b2444984fa429fff82af5, type: 2}
+  - text: Kalau Limfosit T bertugas bertanggung jawab untuk menghancurkan teman sel
+      tubuh yang terinfeksi virus atau menjadi kanker.
+    speaker: {fileID: 11400000, guid: 634107c3d92f4484dba75a26aeb63781, type: 2}
+  - text: Selanjutnyaa kami Limfosit T memiliki tugas lain,
+    speaker: {fileID: 11400000, guid: 634107c3d92f4484dba75a26aeb63781, type: 2}
+  - text: 'Yaitu memproduksi sitokin yang merupakan zat biologis untuk membantu teman
+      teman mengaktiflan bagian lain di sistem kekebalan tubuh.  '
+    speaker: {fileID: 11400000, guid: 634107c3d92f4484dba75a26aeb63781, type: 2}
+  background: {fileID: 21300000, guid: 5708180be73cf2449902bcd5badd9a45, type: 3}
+  nextScene: {fileID: 11400000, guid: 8440a27f9e4c88e4587d19d3cad8ccd4, type: 2}
