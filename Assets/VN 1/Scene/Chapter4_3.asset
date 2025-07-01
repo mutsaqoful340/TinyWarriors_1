@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Chapter4_3
   m_EditorClassIdentifier: 
   sentences:
-  - text: 
+  - text: ' '
     speaker: {fileID: 11400000, guid: 85e7f18f498b2444984fa429fff82af5, type: 2}
   - text: Kalau Limfosit T bertugas bertanggung jawab untuk menghancurkan teman sel
       tubuh yang terinfeksi virus atau menjadi kanker.

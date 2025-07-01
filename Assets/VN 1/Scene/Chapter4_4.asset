@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Chapter4_4
   m_EditorClassIdentifier: 
   sentences:
-  - text: 
+  - text: ' '
     speaker: {fileID: 11400000, guid: 85e7f18f498b2444984fa429fff82af5, type: 2}
   - text: 'Kita terbagi menjadi beberapa jenis, yaitu '
     speaker: {fileID: 11400000, guid: 634107c3d92f4484dba75a26aeb63781, type: 2}

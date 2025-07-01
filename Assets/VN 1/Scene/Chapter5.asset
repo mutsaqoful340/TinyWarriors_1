@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Chapter5
   m_EditorClassIdentifier: 
   sentences:
-  - text: 
+  - text: ' '
     speaker: {fileID: 11400000, guid: 82aadfaba8bd23743b43659050ccdbf2, type: 2}
   - text: Haloo, kenalin aku Monosit!
     speaker: {fileID: 11400000, guid: 82aadfaba8bd23743b43659050ccdbf2, type: 2}

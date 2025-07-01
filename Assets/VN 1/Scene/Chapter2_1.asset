@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Chapter2_1
   m_EditorClassIdentifier: 
   sentences:
-  - text: 
+  - text: ' '
     speaker: {fileID: 11400000, guid: 557086683e2ca76459368e318c6792d5, type: 2}
   - text: Haloo aku Eosinol!
     speaker: {fileID: 11400000, guid: 557086683e2ca76459368e318c6792d5, type: 2}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Chapter3_3
   m_EditorClassIdentifier: 
   sentences:
-  - text: 
+  - text: ' '
     speaker: {fileID: 11400000, guid: 761526c58a5b8cd40af23bc48e0f395c, type: 2}
   - text: Apa itu Histamin?
     speaker: {fileID: 11400000, guid: 761526c58a5b8cd40af23bc48e0f395c, type: 2}
