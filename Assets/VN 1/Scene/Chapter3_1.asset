@@ -23,4 +23,4 @@ MonoBehaviour:
       yaitu kuman penyebab penyakit, seperti bakteri atau virus. '
     speaker: {fileID: 11400000, guid: 761526c58a5b8cd40af23bc48e0f395c, type: 2}
   background: {fileID: 21300000, guid: 5708180be73cf2449902bcd5badd9a45, type: 3}
-  nextScene: {fileID: 11400000, guid: 2b0e085b6bdb98c4285fcb017b54e14c, type: 2}
+  nextScene: {fileID: 0}
