@@ -51,4 +51,4 @@ MonoBehaviour:
       memberitahukan kepada teman teman yang lain. '
     speaker: {fileID: 11400000, guid: 8e2e6c0937b5f7749b4bc713e9481355, type: 2}
   background: {fileID: 21300000, guid: 5708180be73cf2449902bcd5badd9a45, type: 3}
-  nextScene: {fileID: 11400000, guid: 108a5c179da903945b0b344faa075247, type: 2}
+  nextScene: {fileID: 0}
