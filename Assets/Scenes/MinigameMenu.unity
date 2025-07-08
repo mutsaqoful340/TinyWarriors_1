@@ -300,8 +300,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Drag & Drop
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 80bec714647f46a4a85e5dd69a1e9c6d, type: 2}
+  m_sharedMaterial: {fileID: 4811750696510410026, guid: 80bec714647f46a4a85e5dd69a1e9c6d,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -435,8 +436,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Memory Game
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 80bec714647f46a4a85e5dd69a1e9c6d, type: 2}
+  m_sharedMaterial: {fileID: 4811750696510410026, guid: 80bec714647f46a4a85e5dd69a1e9c6d,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1859,10 +1861,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Suika
+  m_text: Merge Game
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 80bec714647f46a4a85e5dd69a1e9c6d, type: 2}
+  m_sharedMaterial: {fileID: 4811750696510410026, guid: 80bec714647f46a4a85e5dd69a1e9c6d,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
