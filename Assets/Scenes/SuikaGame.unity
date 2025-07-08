@@ -1654,8 +1654,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 185, y: 207}
-  m_SizeDelta: {x: 760, y: 137.9}
+  m_AnchoredPosition: {x: 153.03613, y: 207}
+  m_SizeDelta: {x: 696.0723, y: 137.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &665072517
 MonoBehaviour:
@@ -1677,10 +1677,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem Ipsum
+  m_text: RSV
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 80bec714647f46a4a85e5dd69a1e9c6d, type: 2}
+  m_sharedMaterial: {fileID: 4811750696510410026, guid: 80bec714647f46a4a85e5dd69a1e9c6d,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1711,7 +1712,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -2665,7 +2666,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4371bed5402abb64f9019bc5101bf3a2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3992545a06d94a74a91f21b60549befd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3385,38 +3386,27 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Lorem ipsum dolor sit amet consectetur. A arcu at nisl faucibus amet vitae
-    viverra vel. Eu sed ipsum euismod id lacus nullam. Nam nam at orci amet adipiscing
-    in aliquet urna. Ut nisl urna odio dignissim felis proin id.
-
-
-    Sit sagittis
-    lacus lectus urna pellentesque ipsum maecenas pulvinar elit. Volutpat tincidunt
-    lobortis diam phasellus semper sit metus et. Tellus massa pulvinar odio turpis
-    in eu ut felis. Praesent dignissim purus enim nunc eget. Lorem a netus enim in
-    volutpat erat tempor augue eleifend. Aliquam risus vulputate orci phasellus vivamus
-    est nunc augue. Augue pharetra turpis augue habitant scelerisque.
-
-
-    Malesuada
-    suspendisse duis pulvinar vel quis. Integer pretium viverra auctor cursus fames.
-    Tellus imperdiet congue porta ornare egestas. Lectus eu malesuada sit ultrices
-    urna pulvinar dolor est nunc. Interdum auctor erat pellentesque ut in aenean
-    aliquam morbi. Mattis ultricies at ultrices ultrices faucibus a lacinia ac. Morbi
-    commodo fames arcu adipiscing morbi. Pretium risus tellus nec arcu id. Nec nibh
-    eget sed sed felis purus dolor lacus. Parturient nunc consectetur sed sed pulvinar.
-    Nisl gravida pretium amet justo felis. Orci leo in mauris vestibulum nullam.
-    Ut varius condimentum ut viverra.'
+  m_text: "RSV adalah virus yang bisa bikin kita batuk dan pilek. Nama panjangnya
+    adalah Respiratory Syncytial Virus, tapi kita cukup sebut saja RSV. RSV paling
+    sering menyerang bayi dan anak kecil, terutama yang usianya di bawah 2 tahun.
+    Tapi orang dewasa juga bisa terkena RSV, walaupun biasanya cuma batuk dan pilek
+    ringan.\n\nBiasanya, RSV hanya bikin flu ringan, tapi pada bayi atau anak kecil,
+    bisa jadi lebih parah, sampai harus dibawa ke dokter. Di Indonesia, RSV bisa
+    menyebar sepanjang tahun. Tapi paling sering muncul saat musim hujan, ketika
+    udara lebih lembap dan dingin. \r\nNeutrofil akan datang dan menyerang virus
+    supaya kita cepat sembuh. Kalau terlalu banyak neutrofil datang, terkadang bisa
+    bikin badan tambah lelah atau radang, jadi tubuh harus menyeimbangkannya.\r"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a04bd5b5fe4cbd641aae066f4bc83e7d, type: 2}
+  m_sharedMaterial: {fileID: 1001342906307948672, guid: a04bd5b5fe4cbd641aae066f4bc83e7d,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4282074506
+  m_fontColor: {r: 0.5411765, g: 0.27058825, b: 0.23137257, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

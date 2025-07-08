@@ -17,8 +17,6 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 761526c58a5b8cd40af23bc48e0f395c, type: 2}
   - text: Haloo aku Basofil!
     speaker: {fileID: 11400000, guid: 761526c58a5b8cd40af23bc48e0f395c, type: 2}
-  - text: Aku adalah jenis sel darah putih yang jumlahnya sedikit.
-    speaker: {fileID: 11400000, guid: 761526c58a5b8cd40af23bc48e0f395c, type: 2}
   - text: 'Aku bertugas untuk meningkatkan respon imun non-spesifik terhadap patogen
       yaitu kuman penyebab penyakit, seperti bakteri atau virus. '
     speaker: {fileID: 11400000, guid: 761526c58a5b8cd40af23bc48e0f395c, type: 2}

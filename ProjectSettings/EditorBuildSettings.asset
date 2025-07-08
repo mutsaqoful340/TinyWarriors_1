@@ -22,7 +22,7 @@ EditorBuildSettings:
     guid: 0eff3f56689187345ac63f590db4ad6a
   - enabled: 1
     path: Assets/Scenes/Chapter2_1.unity
-    guid: 59d51210dbafa67438e025aed180379a
+    guid: f83e2192be03fef43a56d3dc7fd17cca
   - enabled: 1
     path: Assets/Scenes/Chapter2_2.unity
     guid: 8d3424f352596034ba4df9263a70f56d
@@ -32,11 +32,20 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Chapter3_2.unity
     guid: 3a3185697d524ba4d819efd62599a087
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Chapter3_3.unity
     guid: bc120c836ddab634da2c67ea6f80d8b3
   - enabled: 1
-    path: Assets/Scenes/Chapter4_4.unity
+    path: Assets/Scenes/Chapter4_1.unity
+    guid: 6961631f705afe14bb3a7cc479465f5c
+  - enabled: 1
+    path: Assets/Scenes/Chapter4_2.unity
+    guid: 9fde050fc202a07439e7bcbaffa72a0d
+  - enabled: 1
+    path: Assets/Scenes/Chapter4_3.unity
+    guid: 4825f9d39dd5eb140ab0729a2ad9a2a5
+  - enabled: 1
+    path: Assets/Scenes/Chapter4_3.unity
     guid: 18c3b61f4a458d64891992efb667520e
   - enabled: 1
     path: Assets/Scenes/Chapter5.unity

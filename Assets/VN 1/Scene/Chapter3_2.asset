@@ -20,12 +20,7 @@ MonoBehaviour:
   - text: Jadi ketika tubuh terpapar pemicu asma seperti debu, aku akan melepaskan
       Histamin.
     speaker: {fileID: 11400000, guid: 761526c58a5b8cd40af23bc48e0f395c, type: 2}
-  - text: Apa itu Histamin?
-    speaker: {fileID: 11400000, guid: 761526c58a5b8cd40af23bc48e0f395c, type: 2}
-  - text: Histamin adalah bahan kimia alami yang diproduksi oleh tubuh manusia dan
-      hewan untuk bertugas sebagai system kekebalan tubuh.
-    speaker: {fileID: 11400000, guid: 761526c58a5b8cd40af23bc48e0f395c, type: 2}
-  - text: Okeyy karena peran aku yang memunculkan asma, aku bisa menyebabkan peradangan
+  - text: Karena peran aku yang memunculkan asma, aku bisa menyebabkan peradangan
       di saluran pernapasan lohh.
     speaker: {fileID: 11400000, guid: 761526c58a5b8cd40af23bc48e0f395c, type: 2}
   background: {fileID: 21300000, guid: 5708180be73cf2449902bcd5badd9a45, type: 3}

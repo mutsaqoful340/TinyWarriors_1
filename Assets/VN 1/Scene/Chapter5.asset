@@ -17,12 +17,11 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 82aadfaba8bd23743b43659050ccdbf2, type: 2}
   - text: Haloo, kenalin aku Monosit!
     speaker: {fileID: 11400000, guid: 82aadfaba8bd23743b43659050ccdbf2, type: 2}
-  - text: Aku adalah sel yang memiliki peran penting loh di system kekebalan tubuh.
+  - text: Tugasku adalah melawan infeksi dan membersihkan sel-sel yang sudah mati
+      atau rusak.
     speaker: {fileID: 11400000, guid: 82aadfaba8bd23743b43659050ccdbf2, type: 2}
-  - text: Lohh kok bisaa?
-    speaker: {fileID: 11400000, guid: 82aadfaba8bd23743b43659050ccdbf2, type: 2}
-  - text: Bisa dongg, soalnya tugasku adalah melawan infeksi dan membersihkan sel-sel
-      yang sudah mati atau rusak.
+  - text: Iya, Tugasku bersih-bersih! dan peranku tentu paling penting di sistem
+      kekebalan tubuh
     speaker: {fileID: 11400000, guid: 82aadfaba8bd23743b43659050ccdbf2, type: 2}
   background: {fileID: 21300000, guid: 5708180be73cf2449902bcd5badd9a45, type: 3}
   nextScene: {fileID: 0}

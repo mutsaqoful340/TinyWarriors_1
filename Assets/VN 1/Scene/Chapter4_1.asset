@@ -19,7 +19,7 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 85e7f18f498b2444984fa429fff82af5, type: 2}
   - text: Aku Limfosit B, dan kami Limfosit T. Kok limfosit ada banyak?
     speaker: {fileID: 11400000, guid: 85e7f18f498b2444984fa429fff82af5, type: 2}
-  - text: Iyahh, kita Limfosit dibagi menjadi beberapa jenis, eitsss tapi sebelum
+  - text: Iyaa, kita Limfosit dibagi menjadi beberapa jenis, eitsss tapi sebelum
       kenalan sama jenis lain kita ketahui dulu apa itu Limfosit.
     speaker: {fileID: 11400000, guid: 85e7f18f498b2444984fa429fff82af5, type: 2}
   background: {fileID: 21300000, guid: 5708180be73cf2449902bcd5badd9a45, type: 3}
