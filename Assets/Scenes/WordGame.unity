@@ -3341,7 +3341,6 @@ GameObject:
   - component: {fileID: 1559138199}
   - component: {fileID: 1559138198}
   - component: {fileID: 1559138197}
-  - component: {fileID: 1559138200}
   m_Layer: 5
   m_Name: BtnBack
   m_TagString: Untagged
@@ -3475,27 +3474,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1559138195}
   m_CullTransparentMesh: 1
---- !u!95 &1559138200
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1559138195}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 17dd53cf34e703b4c8553a1d17ea5a7b, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1639505450
 GameObject:
   m_ObjectHideFlags: 0
