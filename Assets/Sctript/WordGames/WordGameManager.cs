@@ -7,6 +7,7 @@ public class WordGameManager : MonoBehaviour
     public string correctWord = "CULT";
     public DropSlot[] slots;
     public TMP_Text feedbackText;
+    public GameObject collectionPanel;
 
     public void CheckIfAllSlotsFilled()
     {
@@ -46,9 +47,10 @@ public class WordGameManager : MonoBehaviour
 
         if (allCorrect)
         {
-            feedbackText.text = "Benar semua!";
+            feedbackText.text = "";
             feedbackText.color = Color.green;
             Debug.Log("🎉 Semua huruf benar!");
+            collectionPanel.SetActive(true); // Tampilkan panel koleksi jika semua benar
         }
         else
         {
